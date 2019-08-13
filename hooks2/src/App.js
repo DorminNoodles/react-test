@@ -8,7 +8,7 @@ import UseStateWithoutDiff from './components/03_UseStateWithoutDiff';
 import UseEffectCleanup from './components/04_UseEffectCleanup';
 import SkippingEffect from './components/05_SkippingEffect';
 import HooksCustom from './components/06_HooksCustom';
-
+import CallApi from './components/07_CallApi';
 
 function App() {
   return (
@@ -25,6 +25,8 @@ function App() {
 		<SkippingEffect />
 
 		<HooksCustom />
+
+		<CallApi />
 
     </div>
   );
