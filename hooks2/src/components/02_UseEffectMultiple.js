@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 
 function UseEffectMultiple(){
 
+	const [click, setClick] = useState(0);
+
 	useEffect(() => {
 		console.log("Hello")
 	})
@@ -14,7 +16,8 @@ function UseEffectMultiple(){
 
 	return (
 		<div>
-
+			<h1>02 UseEffectMultiple</h1>
+			<button onClick={() => setClick(click + 1)}>useState</button>
 		</div>
 	);
 
