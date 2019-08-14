@@ -20,21 +20,21 @@ Call when component is dismount, you can for example unsubscribe user.
 
 You can add array in second parameters of `useEffect`.
 
-  const [count, setCount] = useState(0);
- 
- useEffect(() => {
-    setCount(0);
-  }, [count])
-  
+    const [count, setCount] = useState(0);
+
+     useEffect(() => {
+        setCount(0);
+      }, [count])
+
 Here React check if count is changed before launch effect.
 
 Try without array.
 
-  const [count, setCount] = useState(0);
- 
- useEffect(() => {
-    setCount(0);  
-  })
+    const [count, setCount] = useState(0);
+
+     useEffect(() => {
+        setCount(0);  
+      })
 
 In this case if count is always == to 0, there no re-rendering but i you change count useEffect wiil be recalled
 
