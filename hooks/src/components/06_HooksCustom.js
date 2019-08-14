@@ -39,7 +39,7 @@ function HooksCustom(){
 
 	return (
 		<div>
-			<h1>06 HooksCustom</h1>
+			<h2>06 HooksCustom</h2>
 			{isOnline &&
 				<p>En ligne</p>}
 			{!isOnline &&

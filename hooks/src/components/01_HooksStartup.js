@@ -15,7 +15,8 @@ function HooksStartup() {
 
 return (
 		<div>
-			<h1>01 HooksStartup</h1>
+			<h1>HOOKS</h1>
+			<h2>01 HooksStartup</h2>
 			<p>Vous avez cliqué {count} fois</p>
 			<button onClick={() => setCount(count + 1)}>
 				Cliquez ici

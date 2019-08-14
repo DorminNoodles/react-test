@@ -12,7 +12,7 @@ function SkippingEffect(){
 
 	return (
 		<div>
-			<h1>05 SkippingEffect</h1>
+			<h2>05 SkippingEffect</h2>
 			<button onClick={() => setClick(click)}>Click</button>
 		</div>
 	);

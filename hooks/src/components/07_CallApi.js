@@ -13,16 +13,25 @@ function CallApi() {
 		axios.get('https://jsonplaceholder.typicode.com/users')
 			.then((res) => {
 					console.log(res);
-					setUsers(res);
+					setUsers(res.data);
 				})
 	},[setUsers])
 
-
-	// console.log(users);
-
+	console.log(users);
 	return (
 		<div>
-
+			<h2>07 CallApi</h2>
+			{
+				users &&
+				users.map((elem) => {
+					console.log("USER !");
+					return (
+						<div key={elem.id}>
+							<p>{elem.name}</p>
+						</div>
+					)
+				})
+			}
 		</div>
 	)
 

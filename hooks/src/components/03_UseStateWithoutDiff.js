@@ -10,7 +10,7 @@ function UseStateWithoutDiff(){
 
 	return (
 		<div>
-			<h1>03 UseStateWithoutDiff</h1>
+			<h2>03 UseStateWithoutDiff</h2>
 			<p>{click}</p>
 			<button onClick={() => setClick(42)}>Click</button>
 			<p>No Rerender !</p>

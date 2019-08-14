@@ -11,7 +11,7 @@ function UseEffectCleanup(){
 
 	return (
 		<div>
-			<h1>04 UseEffectCleanup</h1>
+			<h2>04 UseEffectCleanup</h2>
 			<button onClick={() => setClick(click)}>Click</button>
 		</div>
 	);

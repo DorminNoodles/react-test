@@ -16,7 +16,7 @@ function UseEffectMultiple(){
 
 	return (
 		<div>
-			<h1>02 UseEffectMultiple</h1>
+			<h2>02 UseEffectMultiple</h2>
 			<button onClick={() => setClick(click + 1)}>useState</button>
 		</div>
 	);
