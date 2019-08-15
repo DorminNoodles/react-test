@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Container01 from './containers/Container01';
+// import Container01 from './containers/Container01';
+import UseEffect from './01_UseEffect';
 
 
 function App() {
 
-	const HandleRender = () => {
-		console.log('hello');
+	const [effectOn, setEffectOn] = useState(null);
 
+	const HandleClick = () => {
+		console.log("click");
+		setEffectOn(!effectOn);
 	}
 
 	return (
 		<div className="App">
-			<Container01 />
+			<h1>01 UseEffect</h1>
+			{ effectOn && <UseEffect />}
+			<button onClick={HandleClick}>On/Off</button>
 		</div>
 	);
 }
