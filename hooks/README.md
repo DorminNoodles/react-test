@@ -27,26 +27,23 @@ You can add array in second parameters of `useEffect`. UseEffect will be called 
       }, [count])
 
 
-06 HooksCustom
-Hors-ligne
+### 06 HooksCustom
 
-07 CallApi
-Leanne Graham
+You can create your own Hooks, by convention named `useFoo....`
 
-Ervin Howell
+    function useFriendStatus(friendID) {
+        const [isOnline, setIsOnline] = useState(null);
+        
+        useEffect(() => {
+            ...code
+        })
+    }
+    
+    function HooksCustom() {
+        const isOnline = useFriendStatus(1);
+    }
 
-Clementine Bauch
 
-Patricia Lebsack
+### 07 CallApi
 
-Chelsey Dietrich
-
-Mrs. Dennis Schulist
-
-Kurtis Weissnat
-
-Nicholas Runolfsdottir V
-
-Glenna Reichert
-
-Clementina DuBuque
+Simple example for call api and get users.
