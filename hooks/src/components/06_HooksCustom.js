@@ -21,11 +21,6 @@ function useFriendStatus(friendID) {
 	})
 }
 
-
-function fuckyou(){
-	console.log("hello");
-}
-
 function HooksCustom(){
 	const isOnline = useFriendStatus(1);
 
