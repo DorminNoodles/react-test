@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// import Container01 from './containers/Container01';
 import UseEffect from './01_UseEffect';
 
 
