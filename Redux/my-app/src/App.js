@@ -17,12 +17,10 @@ const store = createStore(combineReducers({
 	todoApp
 }));
 
-
 // const store = createStore(todoApp);
 // store.subscribe(() => console.log(store.getState()));
 
 console.log(store.getState());
-
 
 const unsubscribe = store.subscribe(() => console.log(store.getState()));
 

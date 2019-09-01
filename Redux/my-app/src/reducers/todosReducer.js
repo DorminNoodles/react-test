@@ -40,7 +40,6 @@ function todos( state = [], action) {
 * todos (add_todos). It's called Reducer Composition
 */
 
-
 // function todoApp(state = initialState, action) {
 //
 // 	switch(action.type) {
@@ -72,5 +71,6 @@ const todoApp = combineReducers({
 	todos
 })
 
+console.log(todoApp);
 
 export default todoApp;

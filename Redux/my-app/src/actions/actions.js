@@ -12,7 +12,6 @@ export const VisibilityFilters = {
 	SHOW_ACTIVE: 'SHOW_ACTIVE'
 }
 
-
 /*
 * Actions Creators
 */
